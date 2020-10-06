@@ -7,6 +7,21 @@ let amu = 0.1
 let block
 let wall_img 
 
+let licence;
+let title;
+let gtmt;
+let level;
+let font;
+
+
+function preload() {
+  licence = loadImage('menus/licence.png');
+  title = loadImage('menus/title.png');
+  gtmt = loadImage('menus/gtmt.png');
+  level = loadImage('menus/level.png');
+  font = loadFont('menus/Early GameBoy.ttf');
+}
+
 function setup() {
 
   createCanvas(WIDTH * SIZE, HEIGHT * SIZE);
@@ -41,7 +56,8 @@ function setup() {
 
 function draw() {
   
-  background(110);
+  menu();
+   if (i == 5) {
  
   if (CHECK() == false ) {
     
@@ -81,7 +97,7 @@ function draw() {
     block.move_down(); 
     sec2 = sec1;
   } 
-
+  }
   
  
 }
