@@ -30,18 +30,28 @@ The level will increase depending on the cleared lines.
 There are bonus scores if player clears more than one line at once and if player drops block using soft drop.
 
 Controls (What are all the buttons to play?)
+
 In menu
+
 Z key go to previous menu.
+
 X key go to next menu.
+
 Enter key for select option.
+
 ARROW key for switching option.
 
 In game
 ENTER key for game pause and restart.
+
 Z key for counter clockwise rotation.
+
 X key for clockwise rotation.
+
 LEFT ARROW for move block left.
+
 RIGHT ARROW for move block right.
+
 DOWN ARROW for move block down and soft drop.
 
 Cheat Codes (if any)
