@@ -16,9 +16,17 @@ GAM100F20KR
 “How to Play” instructions (The goals of the game and what to do)
 
 The goals of this game are matching blocks horizontally to stay alive and earn as many points as possible.
+
+
 Player can move and rotate blocks to matching blocks horizontally.
+
+
 The speed of block is depending on the level.
+
+
 The level will increase depending on the cleared lines.
+
+
 There are bonus scores if player clears more than one line at once and if player drops block using soft drop.
 
 Controls (What are all the buttons to play?)
