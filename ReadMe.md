@@ -1,15 +1,16 @@
-URL of your project hosted by the p5.js editor (File-> Share)
+https://editor.p5js.org/hyosang.jung/sketches/a8F-9hWEC
 
-
-Game Name and name of original company that made it
 Game Name: Gameboy TETRIS 
+
 Original company: Nintendo
 
 Team name: Gameboy
 
 Team members (Korean name and DigiPen login ID)
-이선우 5533800
-정효상 5533861
+
+이선우 sunwoo.lee
+
+정효상 hyosang.jung
 
 GAM100F20KR
 
