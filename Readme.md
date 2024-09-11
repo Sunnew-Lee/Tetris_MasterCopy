@@ -1,9 +1,15 @@
 # Gameboy TETRIS
 
 ## Project Details
+### This is a 7 week retro game master copy project.
+The goal of this Master Copy project is to experience creating an existing simple game from start to finish (minus coming up with the game design) to understand the effort and scope of a project.
+
+Look up [Tetris gamebreakdown document(GBBD)](https://docs.google.com/document/d/1vZ4H4y6d2PbiiHQOlG9i2MmodjtwxmgGO8S6WyAM63Q/edit?usp=sharing) for detailed information about this game.
 
 **URL of project hosted by the p5.js editor (File -> Share):**  
-[https://editor.p5js.org/sunwoolee-digipen/sketches/XI_wLXi7u](https://editor.p5js.org/sunwoolee-digipen/sketches/XI_wLXi7u)
+(Note this link only works on Chrome Incognito or other web browsers.)
+
+[Play Now](https://editor.p5js.org/sunwoolee-digipen/full/XI_wLXi7u)
 
 **Game Name:** Gameboy TETRIS  
 **Original Company:** Nintendo
