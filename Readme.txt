@@ -1,38 +1,43 @@
-URL of your project hosted by the p5.js editor (File-> Share)
-❏	https://editor.p5js.org/sunwoolee-digipen/sketches/XI_wLXi7u
+# Gameboy TETRIS
 
-Game Name and name of original company that made it
-❏	Game Name: Gameboy TETRIS / Original company: Nintendo
+## Project Details
 
-Team name
-❏	Team name: Gameboy
+**URL of project hosted by the p5.js editor (File -> Share):**  
+[https://editor.p5js.org/sunwoolee-digipen/sketches/XI_wLXi7u](https://editor.p5js.org/sunwoolee-digipen/sketches/XI_wLXi7u)
 
-Team members (Korean name and DigiPen login ID)
-❏	이선우 sunwoo.lee / 정효상 hyosang.jung
+**Game Name:** Gameboy TETRIS  
+**Original Company:** Nintendo
 
-GAM100F20KR
+## Team Information
 
-“How to Play” instructions (The goals of the game and what to do)
+**Team Name:** Gameboy  
 
-❏ 	The goal of this game is matching blocks horizontally to stay alive and earn as many points as possible.
+**Team Members:**  
+- 이선우 (sunwoo.lee)  
+- 정효상 (hyosang.jung)
+
+**Course:** GAM100F20KR
+
+## How to Play
+
+The goal of this game is to match blocks horizontally to stay alive and earn as many points as possible.
+
 - Player can move and rotate blocks to match blocks and clear lines.
-- The speed of the block will depend on the level.
-- The level will increase depending on the cleared lines.
- -There are bonus scores if player clears more than one line at once and if player drops block using soft drop consistently.
+- The speed of the blocks will increase based on the level.
+- Levels increase depending on the number of cleared lines.
+- Bonus points are awarded for clearing more than one line at once and for consistently using the soft drop to place blocks.
 
-Controls (What are all the buttons to play?)
+## Controls
 
-❏	 In menu
+### In Menu
+- **Z key**: Go to the previous menu (only for game type menu and level select menu).
+- **Enter key / X key**: Go to the next menu.
+- **ARROW keys**: Change options.
 
-- Z key for going to previous menu( to game type menu and level select menu only ).
-- Enter key and X key for going to next menu.
-- ARROW key for changing option.
-
-❏	 In game 
-
-- ENTER key for game pause and resume.
-- Z key for counter clockwise rotation.
-- X key for clockwise rotation.
-- LEFT ARROW for moving block left.
-- RIGHT ARROW for moving block right.
-- DOWN ARROW for moving block down and soft drop.
+### In Game
+- **Enter key**: Pause and resume the game.
+- **Z key**: Rotate block counterclockwise.
+- **X key**: Rotate block clockwise.
+- **LEFT ARROW**: Move block left.
+- **RIGHT ARROW**: Move block right.
+- **DOWN ARROW**: Move block down (soft drop).
