@@ -22,8 +22,6 @@ Look up [Tetris gamebreakdown document(GBBD)](https://docs.google.com/document/d
 - 이선우 (sunwoo.lee)  
 - 정효상 (hyosang.jung)
 
-**Course:** GAM100F20KR
-
 ## How to Play
 
 The goal of this game is to match blocks horizontally to stay alive and earn as many points as possible.
