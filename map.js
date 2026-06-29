@@ -11,76 +11,23 @@ var board = [];
 var SIZE = 45;
 
 
+const NEXT_BLOCK_PREVIEW = {
+  3: { shape: block_O, get image() { return o_block; }, yOffset: 550 },
+  4: { shape: block_I, get image() { return i_block; }, yOffset: 505 },
+  5: { shape: block_Z, get image() { return z_block; }, yOffset: 550 },
+  6: { shape: block_S, get image() { return s_block; }, yOffset: 550 },
+  7: { shape: block_L, get image() { return l_block; }, yOffset: 550 },
+  8: { shape: block_J, get image() { return j_block; }, yOffset: 550 },
+  9: { shape: block_T, get image() { return t_block; }, yOffset: 550 }
+};
+
 function next() //show next block
 {
-  for (let i = 0; i < COLUMN; i++) {
-    for (let j = 0; j < ROW; j++) {
-      {
-        switch (next_block_num) {
-          case 3:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_O[i][j] == 1) {
-                  image(o_block, (j * SIZE) + 660, (i * SIZE) + 550, SIZE, SIZE);
-                }
-              }
-            }
-            break;
-            case 4:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_I[i][j] == 1) {
-                  image(i_block, (j * SIZE) + 660, (i * SIZE) + 505, SIZE, SIZE);
-                   }
-              }
-            }
-            break;
-          case 5:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_Z[i][j] == 1) {
-                  image(z_block, (j * SIZE) + 660, (i * SIZE) + 550, SIZE,SIZE);
-                   }
-              }
-            }
-            break;
-          case 6:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_S[i][j] == 1) {
-                  image(s_block, (j *SIZE) + 660, (i * SIZE) + 550, SIZE,SIZE);
-                   }
-              }
-            }
-            break;
-          case 7:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_L[i][j] == 1) {
-                  image(l_block, (j * SIZE) + 660, (i * SIZE) + 550,SIZE, SIZE);
-                   }
-              }
-            }
-            break;
-          case 8:
-          for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_J[i][j] == 1) {
-                  image(j_block, (j * SIZE) + 660, (i * SIZE) + 550, SIZE, SIZE);
-                   }
-              }
-            }
-            break;
-            case 9:
-            for (let i = 0; i < 4; i++) {
-              for (let j = 0; j < 4; j++) {
-                if (block_T[i][j] == 1) {
-                  image(t_block, (j * SIZE) + 660, (i * SIZE) + 550, SIZE, SIZE);
-                   }
-              }
-            }
-            break;
-        }
+  const preview = NEXT_BLOCK_PREVIEW[next_block_num];
+  for (let i = 0; i < 4; i++) {
+    for (let j = 0; j < 4; j++) {
+      if (preview.shape[i][j] == 1) {
+        image(preview.image, (j * SIZE) + 660, (i * SIZE) + preview.yOffset, SIZE, SIZE);
       }
     }
   }
