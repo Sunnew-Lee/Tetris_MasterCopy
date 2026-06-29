@@ -435,6 +435,11 @@ function keyPressed() {
       MENU_NUM++;
       score=0;
       game_over=false
+      full_row = 0;
+      curr_full_row = 0;
+      full_count = 0;
+      n_full_row = 0;
+      is_levelup = true;
     }
     if (level >= 0 && level <= 9) 
     {
